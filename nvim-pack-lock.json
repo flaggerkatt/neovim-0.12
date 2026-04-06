@@ -2,7 +2,8 @@
   "plugins": {
     "blink.cmp": {
       "rev": "5e088706d92da09949e081cc4d49e2c9ba8cfc8c",
-      "src": "https://github.com/saghen/blink.cmp"
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "1.0.0 - 2.0.0"
     },
     "bufferline.nvim": {
       "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
@@ -16,13 +17,25 @@
       "rev": "4516612fe98ff56ae0415a259ff6361a89419b0a",
       "src": "https://github.com/sindrets/diffview.nvim"
     },
+    "flash.nvim": {
+      "rev": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+      "src": "https://github.com/folke/flash.nvim"
+    },
     "gitsigns.nvim": {
       "rev": "db486b42299b2e3f5831809617af21becf268a39",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
+    "grug-far.nvim": {
+      "rev": "dc4684e163971bb1f5bfb93fbd4bb3e892bf9b15",
+      "src": "https://github.com/MagicDuck/grug-far.nvim"
+    },
     "lualine.nvim": {
       "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "markdown-preview.nvim": {
+      "rev": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee",
+      "src": "https://github.com/iamcco/markdown-preview.nvim"
     },
     "marks.nvim": {
       "rev": "f353e8c08c50f39e99a9ed474172df7eddd89b72",
@@ -44,6 +57,14 @@
       "rev": "3923662bf3d6ca49a9503f8d7196ea0450983e6a",
       "src": "https://github.com/echasnovski/mini.nvim"
     },
+    "noice.nvim": {
+      "rev": "7bfd942445fb63089b59f97ca487d605e715f155",
+      "src": "https://github.com/folke/noice.nvim"
+    },
+    "nui.nvim": {
+      "rev": "de740991c12411b663994b2860f1a4fd0937c130",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
     "nvim-lspconfig": {
       "rev": "8e2084bf5e40c79c1f42210a6ef96a0a4793a763",
       "src": "https://github.com/neovim/nvim-lspconfig"
@@ -62,6 +83,10 @@
       "rev": "d7462543c9e366c0d196c7f67a945eaaf5d99414",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
+    "render-markdown.nvim": {
+      "rev": "687de727de91a63b0bff9cff4e71d73f9d40fa77",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
     "rose-pine": {
       "rev": "cf2a288696b03d0934da713d66c6d71557b5c997",
       "src": "https://github.com/rose-pine/neovim"
@@ -73,6 +98,10 @@
     "which-key.nvim": {
       "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
       "src": "https://github.com/folke/which-key.nvim"
+    },
+    "yanky.nvim": {
+      "rev": "784188e0a7363e762e53140f39124d786aec0832",
+      "src": "https://github.com/gbprod/yanky.nvim"
     }
   }
 }

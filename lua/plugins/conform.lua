@@ -6,12 +6,12 @@ require("conform").setup({
 		-- go = { "goimports", "gofmt" }, fixed below as suggested by JudgeGregg (https://gitlab.com/tduyng/tduyng.gitlab.io/issues/18) - see more #formatters-by-filetype
 		go = { "goimports", "gofmt", stop_after_first = true },
 		python = { "ruff_format", "black", stop_after_first = true },
-		json = { "biome", "prettier", stop_after_first = true },
+		json = { "prettier", stop_after_first = true },
 		markdown = { "prettier" },
-		javascript = { "biome", "prettier", stop_after_first = true },
-		typescript = { "biome", "prettier", stop_after_first = true },
-		javascriptreact = { "biome", "prettier", stop_after_first = true },
-		typescriptreact = { "biome", "prettier", stop_after_first = true },
+		javascript = { "prettier", stop_after_first = true },
+		typescript = { "prettier", stop_after_first = true },
+		javascriptreact = { "prettier", stop_after_first = true },
+		typescriptreact = { "prettier", stop_after_first = true },
 		css = { "prettier" },
 		html = { "prettier" },
 		toml = { "taplo" },
@@ -77,4 +77,3 @@ end, { desc = "Format buffer" })
 vim.keymap.set({ "n", "v" }, "<leader>cF", function()
 	require("conform").format({ formatters = { "injected" }, timeout_ms = 3000 })
 end, { desc = "Format Injected Langs" })
-
