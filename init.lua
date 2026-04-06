@@ -18,20 +18,11 @@ vim.pack.add({
 	-- devicons
 	{ src = 'https://github.com/nvim-tree/nvim-web-devicons' },
 
-	-- Which-key / keymap information
-	{ src = "https://github.com/folke/which-key.nvim" },
-
 	-- Mini / statusline
 	{ src = "https://github.com/echasnovski/mini.nvim" },
 
-	-- Treesitter / fileparsers
-	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
-
 	-- Marks
 	{ src = "https://github.com/chentoast/marks.nvim" },
-
-	-- Blink Autocomplete
-	{ src = "https://github.com/saghen/blink.cmp" },
 
 	-- Lualine
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
