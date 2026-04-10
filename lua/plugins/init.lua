@@ -1,3 +1,5 @@
+require("plugins.colorscheme")
+-- require("plugins.lsp")
 require("plugins.bufferline")
 require("plugins.which-key")
 require("plugins.lualine")
