@@ -4,7 +4,7 @@ require("conform").setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
 		-- go = { "goimports", "gofmt" }, fixed below as suggested by JudgeGregg (https://gitlab.com/tduyng/tduyng.gitlab.io/issues/18) - see more #formatters-by-filetype
-		go = { "goimports", "gofmt", stop_after_first = true },
+		-- go = { "goimports", "gofmt", stop_after_first = true },
 		python = { "ruff_format", "black", stop_after_first = true },
 		json = { "prettier", stop_after_first = true },
 		markdown = { "prettier" },
@@ -34,7 +34,7 @@ require("conform").setup({
 		if bufname:match("/node_modules/") then
 			return
 		end
-		return { timeout_ms = 2500, lsp_format = "fallback" }
+		return { timeout_ms = 8000, lsp_format = "fallback" }
 	end,
 })
 
