@@ -8,5 +8,8 @@ vim.g.localleader = ","
 require("core")
 require("plugins")
 
+-- Corlorscheme (natively, no plugin needed)
+vim.cmd.colorscheme("rose-pine-moon")
+
 -- Enable som LSP stuff
 vim.lsp.enable({ "lua_ls" })
