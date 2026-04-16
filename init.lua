@@ -12,4 +12,6 @@ require("plugins")
 vim.cmd.colorscheme("rose-pine-moon")
 
 -- Enable som LSP stuff
-vim.lsp.enable({ "lua_ls" })
+vim.lsp.enable({ "lua_ls", "copilot" })
+
+-- require("vim._core.ui2").enable()
