@@ -139,8 +139,8 @@ map("n", "<leader>qq", "<cmd>qa<cr>", { desc = "Quit All" })
 -- DEVELOPMENT TOOLS
 
 -- Commenting (add comment above/below current line)
-map("n", "gco", "o<esc>Vcx<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add Comment Below" })
-map("n", "gcO", "O<esc>Vcx<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add Comment Above" })
+-- map("n", "gco", "o<esc>Vcx<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add Comment Below" })
+-- map("n", "gcO", "O<esc>Vcx<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add Comment Above" })
 
 -- Quickfix and location lists
 map("n", "<leader>xl", function()
